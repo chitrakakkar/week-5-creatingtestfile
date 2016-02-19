@@ -12,7 +12,7 @@ public class Main
     public static void main(String[] args) throws Exception
     {
         URL location = Main.class.getProtectionDomain().getCodeSource().getLocation();
-        //System.out.println(location);
+
         File NewFolder = new File("data");
         BufferedWriter output = null;
 
